@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>چت آنلاین من</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- ✅ اضافه کردن فونت Vazir از CDN -->
+  <link href="https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div class="container">
+    <h1>👋 خوش اومدی!</h1>
+    <p>برای صحبت با ما از چت پایین صفحه استفاده کن.</p>
+  </div>
+
+  <!-- ✅ چت آنلاین Tawk.to -->
+  <!-- جایگزین کن YOUR_ID_HERE با کدی که Tawk.to بهت میده -->
+  <script type="text/javascript">
+    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+    (function () {
+      var s1 = document.createElement("script"),
+        s0 = document.getElementsByTagName("script")[0];
+      s1.async = true;
+      s1.src = 'https://embed.tawk.to/YOUR_ID_HERE/1hxyzabc/default';
+      s1.charset = 'UTF-8';
+      s1.setAttribute('crossorigin', '*');
+      s0.parentNode.insertBefore(s1, s0);
+    })();
+  </script>
+</body>
+</html>
